@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+body {
+
+    background-image: linear-gradient(-45deg, rgb(72, 17, 71) 30%, rgb(24, 22, 53) 50%, rgb(55, 17, 99) 70%);
+
+    background-color: #0d1b33e9 ;
+    background-attachment: fixed;
+    margin: 90px;
+}
+
+header {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    text-align: center;
+    border-radius: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    padding: 10px;
+
+}
+
+header > h2 {
+    background-color: white;
+    color: rgba(76, 69, 211, 0.758);
+    box-shadow: -1px 2px 6px 0px rgba(0, 0, 0, 0.462);
+    width: 150px;
+    border-radius: 150px;
+    margin: auto;
+    padding: 5px;
+    
+}
+
+main > form {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+hr {
+    margin: 10px;
+}
+
+form > input {
+    outline: unset;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #3931DE;
+    border-radius: 10px;
+    box-shadow: inset 1px 3px 5px 0px rgba(128, 128, 128, 0.204);
+}
+form > button {
+    
+    padding: 10px;
+    width: 150px;
+    border: 1px solid #3931DE;
+    border-radius: 10px;
+    
+}
+
+form input:focus {
+    background-color: #888eb320;
+}
+
+form label {
+    margin-left: 1px;
+}
+
+form button[type=submit] {
+    background-color: #7B68B3;
+    cursor: pointer;
+    color: white;
+}

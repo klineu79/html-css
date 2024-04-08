@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Android' ;
+    src: url('./fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+
+:root{
+
+    --fonte-android: 'Android', cursive;
+}
+
+
+body {
+    background-color: #a1dd142f;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #2FA866, #063D1E);
+    margin: -18px;
+    box-shadow: 0px 1px 11px 0px rgba(0, 0, 0, 0.458);
+    padding: 10px;
+}
+
+
+header > h1 {
+    color: white;
+    text-align: center;
+    margin: -8px;
+    padding: 40px;
+    font-weight: bold;
+    letter-spacing: -3px;
+    font-size: 40px ;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    
+}
+
+  
+header > h2 {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.833);
+    padding: 32px;
+    margin: 0%;
+    letter-spacing: -1px;
+    font-size: 20px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+nav > a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 13px;
+    margin: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+nav > a:hover {
+    background-color: #3DDC84;
+    
+}
+
+
+main {
+    display: flex;
+    background-color: white;
+    width: 800px;
+    height: 2200px;
+    padding: 40px;
+    margin: auto;
+    box-shadow:  0px 1px 11px 0px rgba(0, 0, 0, 0.404);
+    border-radius: 0px 0px 15px 15px;
+}
+
+.video {
+    background-color: #063D1E;
+    text-align: center;
+    padding: 10px;
+    margin-left: -40px;
+    margin-right: -40px;
+}
+article > p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article > h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #063D1E;
+  }
+  
+  main > article > h2 {
+    font-family: var(--fonte-android);
+  }
+
+   main > article > div {
+    width: 100%;
+  }
+  
+  footer{
+    background-color: #063D1E;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    padding: 3px;
+    margin: 10px;
+    
+  }
+
+  .lista {
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+  }
+
+  .lista > ul {
+    columns: 2;
+  }
+
+  .lista > h3 {
+    background-color: #063D1E;
+    color: white;
+    padding: 5px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+  }
